@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotator : MonoBehaviour
+public class Snm : MonoBehaviour
 {
-    public float speed = 100.0f;
+    public float speed = 20.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,6 @@ public class Rotator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0,0,-speed * Time.deltaTime);
+        transform.Rotate(0, 0, -speed * Time.deltaTime);
     }
 }
