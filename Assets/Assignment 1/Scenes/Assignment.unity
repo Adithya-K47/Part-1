@@ -5850,6 +5850,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  rigidbody: {fileID: 2087214046}
+  forwardForce: 8
+  forcePos: {fileID: 2087214043}
 --- !u!58 &2087214045
 CircleCollider2D:
   m_ObjectHideFlags: 0
